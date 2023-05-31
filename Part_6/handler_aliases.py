@@ -1,6 +1,6 @@
 import sanic
 
-app = sanic.Sanic("ListenersInAction")
+app = sanic.Sanic("HandlerAliases")
 
 
 @app.route("/", name = "index")
